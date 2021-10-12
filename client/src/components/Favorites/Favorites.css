@@ -1,6 +1,13 @@
 .disabled{
     background: #FBEAFF;
-    pointer-events: none;
+   
+}
+.favorites{
+   font-size: 4em;
+   color: rgb(255, 255, 255);
+  margin-bottom: -8px;
+   text-shadow: 0 1px 1px  rgb(87, 87, 87);
+    
 }
 .btn-remove{
     background-color: rgb(72, 72, 72);

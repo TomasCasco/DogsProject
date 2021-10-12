@@ -11,7 +11,7 @@ export class Favorites extends Component {
     return (
       
       <div >
-      <h1>Favorites</h1>
+      <h1 className = 'favorites'>Favorites</h1>
         <ul className= 'container'>
           {
             this.props.dogsFavorites && this.props.dogsFavorites.map(dog =>(

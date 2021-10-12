@@ -1,40 +1,35 @@
 .inicio{
-    
+    display: flex;
     background-image: url("https://www.thesprucepets.com/thmb/RIz5xATnm3WzHmlIyWdVUiru4ZU=/3600x2400/filters:fill(auto,1)/strongest-dog-breeds-4799757-hero-3c80a621495740109d5caca02a2e4e31.jpg");
-    
+    flex-direction: column;
     background-size:cover;
     background-position:center;
     height:100vh;
     display:flex;
+   
     
     padding:0 20px;
 
 }
-.texcontainer{
-    margin-top: 15vh;
-    
-    background-color: aliceblue;
-}
+
 .text__{
-    margin-top: 5vh;
-    margin-left:25vh;
-   position: absolute;
+    
+   
     color: rgb(240, 149, 45);
-    left:0;
-    font-size: 2em;
+    font-weight:700;
+    font-size: 5em;
     text-decoration: overline;
-    text-shadow: 2px 1px 0 rgb(206, 46, 46);
+    text-shadow: 2px 1px 0 rgb(186, 120, 45);
     
 }
 .text_2{
-    margin-top: 10vh;
-    margin-left: 5vh;
-    position: absolute;
+   
+    
    
     color: rgb(240, 149, 45);
-    left:0;
-    font-size: 2em;
+    
+    font-size: 3em;
 text-decoration: underline;
-    text-shadow: 2px 1px 0 rgb(206, 46, 46);
+    text-shadow: 2px 1px 0 rgb(186, 120, 45);
     
 }

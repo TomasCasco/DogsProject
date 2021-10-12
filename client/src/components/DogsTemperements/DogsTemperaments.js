@@ -20,21 +20,14 @@ const DogsTemperaments = () =>{
     return(
         <>
             <Search/>
-            <h1>Razas Encontradas por Temperamento</h1>
+            <h1></h1>
         <div className='container'>
             {
                 dogsTemperaments.map( dog =>(
                     <li className='dog' key={dog.id}>
                         <Dog dog ={dog}/>
-{/* 
-                        <Link to={`/dogs/${dog.id}`}>{dog.name}</Link>
-                        <br></br>
-                        <img className="" src={dog.image} width="100" height="auto" alt="" />
-                        <br></br>
-                        <p>{dog.temperaments[0].name}</p>
-                        <br></br>
-                        <button onClick={ () => dispatch(addDogFavorite({ id: dog.id, name: dog.name, image: dog.image, temperaments: dog.temperaments[0].name, years : dog.years_life}))} >Favorite</button> */}
-                    </li>
+ 
+                        </li>
                 ))
             }
         </div>
