@@ -12,7 +12,7 @@ async function AddDog(req,res,next){
         if( dogBody.name && dogBody.height && dogBody.weight){
 
             
-            if(!dogBody.image) dogBody.image ='https://i.imgur.com/tc5eTf9.jpg'
+            if(!dogBody.image) dogBody.image ='https://www.olondriz.com/wp-content/uploads/2020/04/ambar-perrito-1-1024x899.jpg'
             if(!dogBody.years_life) dogBody.years_life = 'Life span is not set'
             if(!dogBody.temperaments) dogBody.temperaments ='Temperaments are not set'
             

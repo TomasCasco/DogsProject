@@ -1,0 +1,9 @@
+export const SET_DOGS = 'SET_DOGS';
+export const SET_DOG_DETAIL = 'SET_DOG_DETAIL';
+export const REMOVE_DOG_FAVORITE = 'REMOVE_DOG_FAVORITE';
+export const ADD_DOG_FAVORITE = 'ADD_DOG_FAVORITE';
+export const GET_DOGS = 'GET_DOGS';
+export const ADD_DOG = 'ADD_DOG';
+export const GET_TEMPERAMENTS = 'GET_TEMPERAMENTS';
+export const GET_DOG_TEMPERAMENTS='GET_DOG_TEMPERAMENTS';
+export const GET_DOG_ORDER = 'GET_DOG_ORDER';

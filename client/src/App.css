@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: rgb(208, 208, 208);
 }
 
 .App-logo {
@@ -11,6 +12,21 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+button{
+
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(72, 72, 72);
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 1.1rem;
+  border:none;
+  border-radius: 4px;
+  margin: 4px;
+  height: 2rem;
+}
+button:hover {
+  cursor: pointer;
 }
 
 .App-header {
